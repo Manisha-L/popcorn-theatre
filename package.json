@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/Manisha-L/popcorn-theatre"
   },
   "author": "Manisha",
   "license": "ISC",
   "bugs": {
     "url": ""
   },
-  "homepage": "",
+  "homepage": "https://github.com/Manisha-L/popcorn-theatre",
   "dependencies": {
     "axios": "^0.19.2",
     "bcryptjs": "^2.4.3",
