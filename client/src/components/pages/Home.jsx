@@ -33,7 +33,7 @@ const Home =  () =>{
      // eslint-disable-next-line
     const {isAuthenticated, loadUser} = authContext
 
-    const [selection, setSelection] = useState("Popular Movies")
+    const [selection, setSelection] = useState("Trending")
     const [movieIndex , setMovieIndex] = useState(0)
     useEffect(()=>{
         loadUser()
