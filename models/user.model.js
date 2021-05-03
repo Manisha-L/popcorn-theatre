@@ -37,4 +37,4 @@ const userSchema = mongoose.Schema({
   movies_reviewed: Array,
 });
 
-module.exports = mongoose.model("Keep-Watching-User", userSchema);
+module.exports = mongoose.model("popcorn-theatre-User", userSchema);

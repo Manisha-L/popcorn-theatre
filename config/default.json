@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb://localhost:27017/watchall",
+  "mongoURI": "mongodb+srv://manisha-l:DwyfNXVlqoGkigt8@cluster0.hgyly.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   "jwtSecret": "JWT-SECRETE_KEY"
 }
