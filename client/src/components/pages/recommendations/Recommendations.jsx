@@ -76,11 +76,11 @@ const RecommendationsPage =(props) => {
                     
                     let res = []
                     if (recommender_type=== "userBasedCF"){
-                        console.log("making pst request to 'http://localhost:9030/recommendations/usercolaborativefiltering'")
-                        res = await axios.post('http://localhost:9030/recommendations/usercolaborativefiltering', data, config)
+                        console.log("making pst request to 'https://popcorn-theatre-server.herokuapp.com/recommendations/usercolaborativefiltering'")
+                        res = await axios.post('https://popcorn-theatre-server.herokuapp.com/recommendations/usercolaborativefiltering', data, config)
                     }else{
-                        console.log("making pst request to 'http://localhost:9030/recommendations/itemcolaborativefiltering'")
-                        res = await axios.post('http://localhost:9030/recommendations/itemcolaborativefiltering', data, config)
+                        console.log("making pst request to 'https://popcorn-theatre-server.herokuapp.com/recommendations/itemcolaborativefiltering'")
+                        res = await axios.post('https://popcorn-theatre-server.herokuapp.com/recommendations/itemcolaborativefiltering', data, config)
                     }
                     console.log("recommendations = ", res.data)
                     

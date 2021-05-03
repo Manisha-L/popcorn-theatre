@@ -38,7 +38,7 @@ const Home =  () =>{
     useEffect(()=>{
         loadUser()
         // this will spin up  the recommendation server
-        axios.get("http://localhost:9030/")
+        axios.get("https://popcorn-theatre-server.herokuapp.com/")
      // eslint-disable-next-line
     }, [])
     
