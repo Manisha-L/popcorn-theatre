@@ -79,8 +79,8 @@ const RecommendationsPage =(props) => {
                         console.log("making pst request to 'https://popcorn-theatre-server.herokuapp.com/recommendations/usercolaborativefiltering'")
                         res = await axios.post('https://popcorn-theatre-server.herokuapp.com/recommendations/usercolaborativefiltering', data, config)
                     }else{
-                        console.log("making pst request to 'https://popcorn-theatre-server.herokuapp.com/recommendations/itemcolaborativefiltering'")
-                        res = await axios.post('https://popcorn-theatre-server.herokuapp.com/recommendations/itemcolaborativefiltering', data, config)
+                        console.log("making pst request to 'https://popcorn-theatre-server.herokuapp.com/recommendations/itemfiltering'")
+                        res = await axios.post('https://popcorn-theatre-server.herokuapp.com/recommendations/itemfiltering', data, config)
                     }
                     console.log("recommendations = ", res.data)
                     
