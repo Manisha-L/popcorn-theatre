@@ -1,6 +1,6 @@
 # popcorn-theatre
 
-App is deployed to Heroku. Hence it can be accessed directly via URL: https://popcorn-theatreserver.herokuapp.com/
+App is deployed to Heroku. Hence it can be accessed directly via URL: https://popcorn-theatre.herokuapp.com/
 
 (or) To setup locally, please follow the below steps
 
